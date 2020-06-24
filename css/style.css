@@ -9,8 +9,9 @@ body{
     background-attachment: scroll;
 }
 header{
-    height: 150px;
+    min-height: 150px;
     line-height: 80px;
+    padding-top: 20px;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -20,6 +21,7 @@ header{
     box-shadow: 0px 0px 25px 0px;
     text-align: center;
     transition: all 2s ease-in;
+    padding-top: 20px;
 }
 ul{
     list-style: none;
@@ -29,10 +31,16 @@ ul li{
 }
 header nav{
     background: none;
-    margin: 35px auto;
+    margin: auto;
+    margin: auto;
+    min-width: 100%;
+    text-align: center;
+    max-width: max-content;
+    max-height: max-content;
+    padding-top: 20px;
 }
 .logo img{
-    margin-top: 0px;
+    margin-top: px;
 }
 header nav ul li a{
     padding-right: 40px;
@@ -88,12 +96,12 @@ header nav ul li a:hover{
     margin-top: 100px;
 }
 .sec1{
-    margin: 0;
+    margin: 100px;
     padding: 0%;
 }
 .sec1{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 350px;
 }
 .sec1 h1{
     color: #fd0054;
@@ -165,7 +173,8 @@ header nav ul li a:hover{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 90px;
-    padding: 70px 70px 70px 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     text-align: center;
     border-radius: 10%;
     width: auto;
@@ -173,8 +182,10 @@ header nav ul li a:hover{
 }
 .intro-block:hover, .intro-block.activate{
     background: deepskyblue;
+    text-align: center;
 }
 .intro-block:hover{
+    text-align: center;
     -webkit-transition: .9s ease;
     -ms-transition: .9s ease;
     -o-transition: .9s ease;
@@ -186,6 +197,7 @@ header nav ul li a:hover{
     top: -31px;
     left: 50%;
     margin-left: -31px;
+    text-align: center;
 }
 .intro-block .fa{
     width: 63px;
@@ -196,17 +208,20 @@ header nav ul li a:hover{
     background: deepskyblue;
     border-radius: 100%;
     box-shadow: 0px 0px 0px 7px #cceefc;
+    text-align: center;
 }
 .intro-block:hover .fa, .intro-block.activate .fa{
     background: white;
     color: deepskyblue;
     box-shadow:  0px 0px 0px 10px #cceefc;
+    text-align: center;
 }
 .intro-block h3{
     color: deepskyblue;
     font-weight: 700px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    text-align: center;
 }
 .intro-block:hover h3{
     color: #fd0054;
@@ -215,11 +230,13 @@ header nav ul li a:hover{
     color: #585050;
     font-weight: 700px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .intro-block:hover p{
     color: #f6f6f6;
     font-weight: 700px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .feature-area{
     background-image:linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.6)), url('/images/17.jpg');
@@ -241,17 +258,18 @@ header nav ul li a:hover{
     border-color: deepskyblue;
 }
 footer{
-    margin: 35px;
     background-color: #22b2da;
-    width: 100%;
-    height: 150px;
-    line-height: 100px;
-    padding-top: 28px;
-
+    margin: auto;
+    min-width: 100%;
+    max-width: max-content;
+    max-height: max-content;
+    min-height: 150px;
+    line-height: 50px;
+    padding-top: 20px;
 }
 footer ul li a{
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
     font-weight: bold;
     color: whitesmoke;
     transition: all 0.5s ease-in;
@@ -325,9 +343,11 @@ footer ul li a:hover{
 }
 .team-block{
     text-align: center;
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 30px;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-top: 80px;
     padding-bottom: 75px;
 }
@@ -389,23 +409,20 @@ footer ul li a:hover{
     color: #f7f7f7;
 }
 .collection{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: white;
-    padding-top: 150px;
     padding-bottom: 150px;
     color: black;
-    margin-left: 120px;
-}
-.collection .carousel-indicators{
-    bottom: -60px;
-}
-.collection .sub-heading{
-    color: whitesmoke;
 }
 .collection-inner img{
-    position: relative;
     width: 250px;
     height: 250px;
     border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 2px solid deepskyblue;
 }
 .collection-inner div{
